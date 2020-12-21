@@ -41,6 +41,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-react-leaflet`,
     {
       resolve: `gatsby-theme-catalyst-core`,
       options: {
